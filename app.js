@@ -1,6 +1,4 @@
-
 const navSlide = () => {
-
     const hamburger = document.querySelector('.menu-btn');
     const nav = document.querySelector('.main-menu');
 
@@ -10,9 +8,7 @@ const navSlide = () => {
          //Hamburger Animation 
         hamburger.classList.toggle('toggle');
     });
-
 }
-
 navSlide();
 
 //Carousel
