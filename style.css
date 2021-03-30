@@ -721,6 +721,7 @@ footer li {
   -webkit-text-decoration-color: none;
   text-decoration-color: none;
   -webkit-text-decoration-line: none;
+  list-style-type: none;
   text-decoration-line: none;
   margin: 0 15px;
 }
@@ -895,7 +896,6 @@ footer li a:hover {
 
   .home-about .text  {
     padding-right: 7.5%;
-    flex: 0 0 40%;
   }
 
   .home-about .image {
@@ -1731,7 +1731,6 @@ img {
 
   .electrical-services .text  {
     padding-right: 7.5%;
-    flex: 0 0 30%;
   }
 
   .electrical-services .image {
