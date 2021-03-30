@@ -1,0 +1,83 @@
+/* Carousel */
+
+.gallery {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.gallery-container {
+    width: 100%;
+    padding: 7.5rem 0;
+    align-items: center;
+    position: relative;
+    background: #F5F5F6;
+}
+
+.gallery-container .gallery {
+    position: relative;
+    z-index: 1;
+}
+
+/* Is it really necessary? */
+
+.about-gallery::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #F5F5F6;
+}
+.gallery-container {
+    position: relative;
+}
+
+.gallery-container .gallery-arrow.prev {
+    left: 2rem;
+}
+
+.gallery-container .gallery-arrow.prev:focus {
+    outline: none;
+}
+
+.gallery-container .gallery-arrow.next {
+    right: 2rem;
+}
+
+.gallery-container .gallery-arrow.next:focus {
+    outline: none;
+}
+
+.gallery-container .gallery-arrow {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    color: #fefefe;
+    border-radius: 50%;
+    background: #0c1017;
+    transform: translateY(-50%);
+}
+
+.slick-slide {
+    max-width: 80vw;
+    padding: 0 1.5vw;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery img:focus {
+    outline: none;
+    border: none;
+}
+
