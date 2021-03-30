@@ -1200,8 +1200,6 @@ img {
 
 @media only screen and (min-width: 1024px) {
   .about-section {
-    padding-left: 10%;
-    padding-right: 10%;
     background: linear-gradient(rgb(22, 25, 27) 35%, rgb(245, 245, 246) 0%);
   }
 
@@ -1217,6 +1215,8 @@ img {
 
 @media only screen and (min-width: 1200px) {
   .about-section {
+    padding-left: 15%;
+    padding-right: 15%;
     margin-top: 5rem;
   }
   .about-section .text {
