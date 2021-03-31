@@ -459,7 +459,8 @@ body {
     align-items: center;
     justify-content: center;
     width: 85%;
-    height: 100vh;
+    height: 100%;
+    overflow: hidden;
     top: 0;
     z-index: 1;
     transform: translateX(100%);
