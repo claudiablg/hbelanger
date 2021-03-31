@@ -13,6 +13,10 @@ $(function() {
     }
     navSlide();
 
+    targetElement.ontouchend = (e) => {
+        e.preventDefault();
+    };
+    
     //Carousel
 
     $(".gallery").slick({
