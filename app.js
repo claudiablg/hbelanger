@@ -9,6 +9,7 @@ $(function() {
             nav.classList.toggle('nav-active');
             //Hamburger Animation 
             hamburger.classList.toggle('toggle');
+            $('body').bind('touchmove', function(e){e.preventDefault()})
         });
     }
     navSlide();
@@ -16,8 +17,6 @@ $(function() {
     targetElement.ontouchend = (e) => {
         e.preventDefault();
     };
-
-    document.body.style.overflow = 'hidden';
 
     //Carousel
 
