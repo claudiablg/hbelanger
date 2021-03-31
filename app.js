@@ -1,4 +1,3 @@
-$(function() {
 
     const navSlide = () => {
         const hamburger = document.querySelector('.menu-btn');
@@ -9,14 +8,10 @@ $(function() {
             nav.classList.toggle('nav-active');
             //Hamburger Animation 
             hamburger.classList.toggle('toggle');
-            $('body').bind('touchmove', function(e){e.preventDefault()})
         });
     }
     navSlide();
 
-    targetElement.ontouchend = (e) => {
-        e.preventDefault();
-    };
 
     //Carousel
 
@@ -29,4 +24,3 @@ $(function() {
         prevArrow: $('.gallery-arrow.prev'),
         nextArrow: $('.gallery-arrow.next')
     });
-});
