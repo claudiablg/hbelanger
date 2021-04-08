@@ -8,6 +8,7 @@
             nav.classList.toggle('nav-active');
             //Hamburger Animation 
             hamburger.classList.toggle('toggle');
+            hamburger.classList.toggle('close-btn');
         });
     }
     navSlide();
